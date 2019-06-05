@@ -1,11 +1,14 @@
 {
   "name": "moods",
-  "version": "1.0.0",
+  "version": "17.5.099",
   "description": "A set of constants to help refer to emotional information.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./example.js"
   },
-  "author": "",
+  "bin": {
+    "mood-mirror": "./example.js"
+  },
+  "author": "Mykola Bilokonsky",
   "license": "ISC"
 }
